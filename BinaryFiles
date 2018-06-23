@@ -1,0 +1,9 @@
+src/getCategoryFrequencies.o
+src/tableLevelsVsLayer.o
+src/tableSplitVarLevelsVsLayer.o
+src/rFtools.dll
+src-i386/getCategoryFrequencies.o
+src-i386/rFtools.dll
+src-i386/tableLevelsVsLayer.o
+src-i386/tableSplitVarLevelsVsLayer.o
+src-x64/rFtools.dll

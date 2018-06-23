@@ -1,0 +1,16 @@
+Package: rFtools
+Title: Tools for the analysis of Random Forests (and cforest)
+Version: 0.5-6
+Date: 2011-01-09
+Author: Andreas Bender
+Maintainer: Andreas Bender <bender.at.R@googlemail.com>
+Description: This package provides functions for the analysis of
+	randomForest} (and cforest) objects
+	in general and to replicate simulations conducted for the paper
+	on 'Random Forest Gini importance favors SNPs with large minor allele frequency'
+	(http://bib.oxfordjournals.org/content/early/2011/09/10/bib.bbr053.abstract)
+	in specific.
+Depends: R (>= 2.12.1), Rcpp (>= 0.9.0), RcppClassic, randomForest, party
+LinkingTo: RcppClassic, Rcpp
+URL: http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/020_professuren/boulesteix/ginibias/
+License: GPL (>= 2)

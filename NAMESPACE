@@ -1,0 +1,18 @@
+useDynLib(rFtools)
+
+export( barplot.LevelsVsLayerByMAF, getAncestryForest, getAncestryNode, 
+		getAncestryTree, getCategoryFrequenciesNode,  
+		getCategoryFrequenciesForest, getCategoryFrequenciesTree, 
+		getLayerForest, getLayerTree, getLevelsOfSplitVariablesForest,
+		getMAFofSplitVariablesForest, getMAFofSplitVariablesTree,
+	 	getSplitInformationForest, getSplitInformationTree,
+	 	getSplitVariablesForest, getSplitVariablesTree,
+	 	plot.LevelsVsLayer, plot.LevelsVsLayerByMAF, 
+	 	plot.LevelsVsLayerCFbyMAF, plot.SplitVarsByLayerAndMAF,
+	 	simulateAndSafe, simulateAndTable, simulateSNPdata, tableLevelsVsLayer, 
+	 	tableLevelsVsLayerByMAF, tableSplitVarsByLayerAndMAF, 
+	 	tableLevelsVsLayerCFbyMAF, 
+	 	tableSplitVarLevelsVsLayer, tableSplitVarLevelsVsLayerByMAF )
+
+#importFrom( utils, capture.output )
+
